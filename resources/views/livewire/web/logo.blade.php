@@ -30,112 +30,86 @@
     <section class="space-top space-extra-bottom">
         <div class="container">
             <h3 class="text-center mb-4">Our Associate Partners</h3>
+            <style>
+                .partner-card {
+                    background: #fff;
+                    border-radius: 24px;
+                    padding: 1.5rem;
+                    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .partner-thumb {
+                    width: 100%;
+                    height: 200px;
+                    background: #fff;
+                    border-radius: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                    flex-shrink: 0;
+                }
+                .partner-thumb img {
+                    max-width: 80%;
+                    max-height: 80%;
+                    object-fit: contain;
+                }
+                .partner-info {
+                    text-align: center;
+                    padding-top: 1rem;
+                    flex-grow: 1;
+                }
+                .partner-info h4 {
+                    color: #1C2D37;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                }
+                .partner-info a {
+                    color: #6E7070;
+                    font-size: 0.9rem;
+                }
+                .partner-info a:hover {
+                    color: #1C2D37;
+                }
+            </style>
             <div class="row gy-30 mt-3">
                 <h4 class="page-title">Healthy Building Partners</h4>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("uploads/companyimage/genesis.jpg")}}" style="height:auto;object-fit:contain !important;" alt="img">
+                    <div class="partner-card">
+                        <div class="partner-thumb">
+                            <img src="{{asset("uploads/companyimage/genesis.jpg")}}" alt="Genesis Property">
                         </div>
-                        <div class="text-center mt-2">
-                            <h4 class="text-white">Genesis Property</h4>
-                            <span class="team-desig"><a href="https://genesisproperty.net" target="_blank">genesisproperty.net</a></span>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("uploads/companyimage/odc.jpeg")}}" style="height:auto;object-fit:contain !important;" alt="img">
-                        </div>
-                        <div class="text-center mt-2">
-                            <h4 class="text-white">ODC</h4>
-                            <span class="team-desig"><a href="#" target="_blank">ODC</a></span>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
+                        <div class="partner-info">
+                            <h4>Genesis Property</h4>
+                            <a href="https://genesisproperty.net" target="_blank">genesisproperty.net</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
-                        </div>
-                    </div>
-                </div>
-
-                <h3 class="text-center mb-4">Seals</h3>
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("assets/img/property/property-s-1-1.jpg")}}" alt="img">
-                        </div>
-                    </div>
-                </div> --}}
             </div>
             <div class="row gy-30 mt-3">
                 <h4 class="page-title">Healthy People Partners</h4>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("uploads/companyimage/azooka.webp")}}" style="height:auto;object-fit:contain !important;" alt="img">
+                    <div class="partner-card">
+                        <div class="partner-thumb">
+                            <img src="{{asset("uploads/companyimage/azooka.webp")}}" alt="Azooka">
                         </div>
-                        <div class="text-center mt-2">
-                            <h4 class="text-white">Azooka Property</h4>
-                            <span class="team-desig"><a href="https://azooka.life/" target="_blank">azooka.life</a></span>
+                        <div class="partner-info">
+                            <h4>Azooka Labs</h4>
+                            <a href="https://azooka.life/" target="_blank">azooka.life</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="property-card2">
-                        <div class="property-card-thumb img-shine">
-                            <img src="{{asset("uploads/companyimage/bugspeaks-logo.jpg")}}" style="height:auto;object-fit:contain !important;" alt="img">
+                    <div class="partner-card">
+                        <div class="partner-thumb">
+                            <img src="{{asset("uploads/companyimage/bugspeaks-logo.jpg")}}" alt="BugSpeaks">
                         </div>
-                        <div class="text-center mt-2">
-                            <h4 class="text-white">BugSpeaks</h4>
-                            <span class="team-desig"><a href="https://bugspeaks.com/" target="_blank">bugspeaks.com</a></span>
+                        <div class="partner-info">
+                            <h4>BugSpeaks</h4>
+                            <a href="https://bugspeaks.com/" target="_blank">bugspeaks.com</a>
                         </div>
                     </div>
                 </div>
