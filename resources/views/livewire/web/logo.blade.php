@@ -30,7 +30,8 @@
     <section class="space-top space-extra-bottom">
         <div class="container">
             <h3 class="text-center mb-4">Our Associate Partners</h3>
-            <div class="row gy-30">
+            <div class="row gy-30 mt-3">
+                <h4 class="page-title">Healthy Building Partners</h4>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="property-card2">
                         <div class="property-card-thumb img-shine">
@@ -113,6 +114,31 @@
                         </div>
                     </div>
                 </div> --}}
+            </div>
+            <div class="row gy-30 mt-3">
+                <h4 class="page-title">Healthy People Partners</h4>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="property-card2">
+                        <div class="property-card-thumb img-shine">
+                            <img src="{{asset("uploads/companyimage/azooka.webp")}}" style="height:auto;object-fit:contain !important;" alt="img">
+                        </div>
+                        <div class="text-center mt-2">
+                            <h4 class="text-white">Azooka Property</h4>
+                            <span class="team-desig"><a href="https://azooka.life/" target="_blank">azooka.life</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="property-card2">
+                        <div class="property-card-thumb img-shine">
+                            <img src="{{asset("uploads/companyimage/bugspeaks-logo.jpg")}}" style="height:auto;object-fit:contain !important;" alt="img">
+                        </div>
+                        <div class="text-center mt-2">
+                            <h4 class="text-white">BugSpeaks</h4>
+                            <span class="team-desig"><a href="https://bugspeaks.com/" target="_blank">bugspeaks.com</a></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

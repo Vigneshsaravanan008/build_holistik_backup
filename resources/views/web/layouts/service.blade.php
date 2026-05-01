@@ -29,79 +29,6 @@
             <div class="row gx-30">
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sticky-sidebar">
-                        {{-- <div class="widget widget_categories">
-                            <div class="accordion-card mb-0 mt-0">
-                                <div class="accordion-header" id="collapse-item-1">
-                                    <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Certification</button>
-                                </div>
-                                <div id="collapse-1" class="accordion-collapse collapse " aria-labelledby="collapse-item-1"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <div class="checklist mt-2">
-                                            <ul>
-                                                <li class="text-white">
-                                                    <i class="fal fa-circle-check text-white"></i>
-                                                    <div class="cursor-pointer get_service" data-id="service_1_1">
-                                                        Immune
-                                                    </div>
-                                                </li>
-                                                <li class="text-white">
-                                                    <i class="fal fa-circle-check text-white"></i>
-                                                    <div class="cursor-pointer get_service" data-id="service_1_2">
-                                                        ISO
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-card mb-0">
-                                <div class="accordion-header" id="collapse-item-2">
-                                    <button class="accordion-button collapsed text-white fs-14" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Facility Management Advisory & Consulting Services</button>
-                                </div>
-                                <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <div class="checklist mt-2">
-                                            <ul>
-                                                <li class="text-white">
-                                                    <i class="fal fa-circle-check text-white"></i>
-                                                    <div class="cursor-pointer get_service" data-id="service_2_1">
-                                                        Process Re-engineering
-                                                    </div>
-                                                </li>
-                                                <li class="text-white">
-                                                    <i class="fal fa-circle-check text-white"></i>
-                                                    <div class="cursor-pointer get_service" data-id="service_2_2">
-                                                        Efficiency Management
-                                                    </div>
-                                                </li>
-                                                <li class="text-white">
-                                                    <i class="fal fa-circle-check text-white"></i>
-                                                    <div class="cursor-pointer get_service" data-id="service_2_3">
-                                                        Facility Audit
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card mb-0 mt-4">
-                                <div class="accordion-header">
-                                    <span class="services-card collapsed text-white get_service cursor-pointer" data-id="service_3">ESG Consulting</span>
-                                </div>
-                            </div>
-                            <div class="accordion-card mb-0 mt-4">
-                                <div class="accordion-header">
-                                    <span class="services-card collapsed text-white get_service cursor-pointer" data-id="service_4">Enabling Digitization & Automation </span>
-                                </div>
-                            </div>
-                        </div> --}}
                         <div class="aboutus-card service_bg">
                             <div class="d-flex flex-column align-items-center">
                                 <h5 class="text-white mb-0">For Services</h5>
@@ -114,11 +41,11 @@
                                     </li>
                                     <ul class="mx-4 mt-0">
                                         <li class="text-white cursor-pointer get_service" data-id="service_1_1"><i class="text-white fa-solid fa-circle-dot"></i>Immune</li>
-                                        <li class="text-white cursor-pointer get_service" data-id="service_1_2"><i class="text-white fa-solid fa-circle-dot"></i>ISO</li>
+                                        {{-- <li class="text-white cursor-pointer get_service" data-id="service_1_2"><i class="text-white fa-solid fa-circle-dot"></i>ISO</li> --}}
                                     </ul>
                                 </ul>
                             
-                                <ul class="mt-4">
+                                {{-- <ul class="mt-4">
                                     <li class="text-white mb-0">
                                         <h6 class="post-title text-white"> <i class="fa-brands fa-servicestack me-2"></i> Facility Management Advisory & Consulting Services</h6>
                                     </li>
@@ -127,16 +54,16 @@
                                         <li class="text-white cursor-pointer get_service" data-id="service_2_2"><i class="text-white fa-solid fa-circle-dot"></i>Efficiency Management</li>
                                         <li class="text-white cursor-pointer get_service" data-id="service_2_3"><i class="text-white fa-solid fa-circle-dot"></i>Facility Audit</li>
                                     </ul>
-                                </ul>
+                                </ul> --}}
 
                                 <ul class="mt-4">
                                     <li class="text-white mb-0">
                                         <h6 class="post-title text-white get_service cursor-pointer" data-id="service_3"> <i class="fa-brands fa-servicestack me-2"></i>ESG Consulting</h6>
                                     </li>
                                    
-                                    <li class="text-white mb-0">
+                                    {{-- <li class="text-white mb-0">
                                         <h6 class="post-title text-white get_service cursor-pointer" data-id="service_4"> <i class="fa-brands fa-servicestack me-2"></i>Enabling Digitization & Automation</h6>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                         </div> 
@@ -178,7 +105,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="page-content service_content" id="service_2_1" style="display:none;">
+                        {{-- <div class="page-content service_content" id="service_2_1" style="display:none;">
                             <h4 class="sec-title text-theme mb-1">Process Re-engineering</h4>
                             <p class="mb-30 text-theme mt-40">Build Holistik partners with clients to develop customized Facilities Management (FM) performance solutions. We bring to the table best in industry Market expertise to achieve operational excellence, cost reduction and as a result enhanced workplace innovation and experience.</p>
                             <p class="mb-30 text-theme mt-2">We are a  specialized group of seasoned practitioners, professional engineers, academics, and industry-accredited professionals. Our team brings a unique spectrum of expertise and viewpoints when providing consulting and technical services to Architects, building owners/operators and facilities managers. </p>
@@ -199,7 +126,7 @@
                             <h4 class="sec-title text-theme mb-1">Facility Audit</h4>
                             <p class="mb-30 text-theme mt-40">Facility Audit an extensive evaluation of an organisation's assets, systems, processes and technology related to the maintenance and management of a facility, regardless of whether it’s a new building or has been in operation for a long time. </p>
                             <p class="mb-30 text-theme mt-2">Audits cover various areas of FM including (but not limited to) health and safety, compliance with regulations and standards, asset management, energy use, maintenance strategies, and the overall performance of FM services.  </p>
-                        </div>
+                        </div> --}}
                         <div class="page-content service_content" id="service_3" style="display:none;">
                             <h4 class="sec-title text-theme mb-1">ESG Consulting</h4>
                              <p class="mb-30 text-theme mt-40">Build Holistic in house ESG Consultants that are able to ties in ESG score requirements to what the standard offers.</p>

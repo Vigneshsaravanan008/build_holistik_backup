@@ -49,7 +49,23 @@
                         About Us
                     </a>
                     <ul class="sub-menu">
-                        <li><a href="{{route("web.aboutus")}}" wire:navigate>About BuildHolistik</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="shop.html">
+                                About 
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="{{route("web.aboutus")}}">
+                                        Healthy Building
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wellness-spaces-builder.replit.app/" target="_blank">
+                                        Healthy People
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                         <li><a href="https://www.linkedin.com/company/build-holistik/" target="_blank">Blogs</a></li>
                         {{-- <li><a href="{{route("web.press-releases")}}" wire:navigate>Press Releases</a></li>
                         <li><a href="{{route("web.press-contacts")}}" wire:navigate>Press Contacts</a></li> --}}
@@ -121,7 +137,23 @@
                                         About Us
                                     </a>
                                     <ul class="sub-menu">
-                                        <li><a href="{{route("web.aboutus")}}" wire:navigate>About BuildHolistik</a></li>
+                                        <li class="menu-item-has-children">
+                                            <a href="shop.html">
+                                                About
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{route("web.aboutus")}}">
+                                                        Healthy Building
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://wellness-spaces-builder.replit.app/" target="_blank">
+                                                        Healthy People
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li><a href="https://www.linkedin.com/company/build-holistik/" target="_blank">Blogs</a></li>
                                         {{-- <li><a href="{{route("web.media-coverage")}}" wire:navigate>Media Coverage</a></li> --}}
                                         {{-- <li><a href="{{route("web.press-releases")}}" wire:navigate>Press Releases</a></li>
