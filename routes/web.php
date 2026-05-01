@@ -80,6 +80,9 @@ Route::get("/news/posts/{slug}",PressReleaseLanding::class)->name("web.press-rel
 Route::get("/about/press-contacts",PressContact::class)->name("web.press-contacts");
 Route::get("/contact-us",Contactus::class)->name("web.contactus");
 
+// Store Contact Form (Health Partnership)
+Route::post('/contactus/store', [Controller::class, 'storeContact'])->name('web.contactus.store');
+
 //Newsletter
 Route::match(['get', 'post'], 'newsletter', [Controller::class, 'newsletter'])->name('newsletter');
 
